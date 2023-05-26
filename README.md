@@ -1,20 +1,12 @@
-# Nuxt 3 Minimal Starter
-
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# Todo List Test
 
 ## Setup
 
 Make sure to install the dependencies:
 
 ```bash
-# yarn
-yarn install
-
 # npm
 npm install
-
-# pnpm
-pnpm install
 ```
 
 ## Development Server
@@ -25,18 +17,9 @@ Start the development server on `http://localhost:3000`
 npm run dev
 ```
 
-## Production
+## Pages
 
-Build the application for production:
+The `index` route is a list of characters from Rick & Morty using this API `https://rickandmortyapi.com/api`
 
-```bash
-npm run build
-```
+The `to-do` route is a small to do list, when you can create a new todo, remove it and complete it. Also you can filter between all and completed items.
 
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
